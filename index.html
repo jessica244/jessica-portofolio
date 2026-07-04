@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jessica Emad Fawzy — UI/UX Designer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=DM+Sans:ital,wght@0,300;0,400;0,500;0,600;1,400&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- ============================================================
+       NAVBAR
+  ============================================================ -->
+  <nav id="navbar" role="navigation" aria-label="Main navigation">
+    <div class="container">
+      <div class="nav-inner">
+        <a href="#hero" class="nav-logo">Jessica <span>Emad</span></a>
+
+        <ul class="nav-links" id="navLinks">
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#awards">Awards</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+
+        <div class="nav-right" style="display:flex;align-items:center;gap:1rem;">
+          <button class="hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false">
+            <span></span><span></span><span></span>
+          </button>
+        </div>
+      </div>
+    </div>
+    <!-- Mobile menu -->
+    <div class="mobile-menu" id="mobileMenu" role="menu">
+      <a href="#about" role="menuitem">About</a>
+      <a href="#skills" role="menuitem">Skills</a>
+      <a href="#projects" role="menuitem">Projects</a>
+      <a href="#education" role="menuitem">Education</a>
+      <a href="#experience" role="menuitem">Experience</a>
+      <a href="#awards" role="menuitem">Awards</a>
+      <a href="#contact" role="menuitem">Contact</a>
+    </div>
+  </nav>
+
+  <!-- ============================================================
+       HERO SECTION
+  ============================================================ -->
+  <section id="hero">
+    <div class="container">
+      <div class="hero-grid">
+
+        <!-- Left copy -->
+        <div class="hero-left">
+          <p class="hero-greeting reveal">Hi, I'm</p>
+          <h1 class="hero-name reveal reveal-delay-1">
+            Jessica<br><span class="highlight">Emad Fawzy</span>
+          </h1>
+          <p class="hero-title reveal reveal-delay-2">
+            UI/UX Designer
+          </p>
+          <p class="hero-tagline reveal reveal-delay-2">
+            "Designing experiences that feel as good as they look."
+          </p>
+          <div class="hero-ctas reveal reveal-delay-3">
+            <a href="#projects" class="btn btn-filled">View My Work ↓</a>
+            <a href="#contact" class="btn btn-outline">Contact Me</a>
+          </div>
+          <div class="hero-stats reveal reveal-delay-4">
+            <div>
+              <div class="hero-stat-num">2</div>
+              <div class="hero-stat-label">Projects</div>
+            </div>
+            <div>
+              <div class="hero-stat-num">1</div>
+              <div class="hero-stat-label">Training</div>
+            </div>
+            <div>
+              <div class="hero-stat-num">🏆</div>
+              <div class="hero-stat-label">1st Place — Delta Universities</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right — professional photo card -->
+        <div class="hero-right reveal reveal-delay-2">
+          <div class="photo-wrap">
+            <div class="photo-accent-tl"></div>
+            <div class="photo-accent-br"></div>
+            <div class="photo-card">
+            <img src="images/profile.jpg" alt="Jessica Emad Fawzy" class="hero-photo" />
+              <div class="photo-nametag">
+                <div class="photo-nametag-dot"></div>
+                <div>
+                  <div class="photo-nametag-text">Jessica Emad Fawzy</div>
+                  <div class="photo-nametag-role">UI/UX Designer</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       ABOUT SECTION
+  ============================================================ -->
+  <section id="about">
+    <div class="container">
+      <span class="section-label reveal">Get to Know Me</span>
+      <h2 class="section-title reveal">About Me</h2>
+      <div class="section-divider reveal"></div>
+
+      <div class="about-grid">
+
+        <!-- Stats grid -->
+        <div class="stats-grid">
+          <div class="stat-card reveal">
+            <div class="stat-card-num">2</div>
+            <div class="stat-card-label">Projects Completed</div>
+          </div>
+          <div class="stat-card reveal reveal-delay-1">
+            <div class="stat-card-num">1</div>
+            <div class="stat-card-label">Training Program</div>
+          </div>
+          <div class="stat-card reveal reveal-delay-2">
+            <div class="stat-card-num" style="font-size:1.5rem;">Figma</div>
+            <div class="stat-card-label">Primary Tool</div>
+          </div>
+          <div class="stat-card reveal reveal-delay-3">
+            <div class="stat-card-num" style="font-size:1.3rem;">UI/UX</div>
+            <div class="stat-card-label">Specialization</div>
+          </div>
+        </div>
+
+        <!-- Bio right -->
+        <div class="about-right reveal reveal-delay-1">
+          <p class="about-bio">
+            I'm Jessica Emad Fawzy, a UI/UX Designer and recent graduate from the Faculty of
+            Computers and Information, Tanta University — Class of 2025. I specialize in the
+            full UX process: from research, empathy mapping, persona creation, competitive analysis,
+            and problem framing (HMW) all the way to wireframes, high-fidelity prototypes, and
+            polished Figma presentations. I believe great design is invisible: it simply feels right.
+            Whether it's a children's gaming app or a fashion e-commerce platform, I bring empathy,
+            creativity, and precision to every pixel.
+          </p>
+          <blockquote class="about-quote">
+            "Design is not just what it looks like — design is how it works."
+          </blockquote>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       SKILLS SECTION
+  ============================================================ -->
+  <section id="skills">
+    <div class="container">
+      <span class="section-label reveal">What I Bring</span>
+      <h2 class="section-title reveal">My Skill Set</h2>
+      <div class="section-divider reveal"></div>
+
+      <div class="skills-grid">
+
+        <div class="skill-card reveal">
+          <span class="skill-icon">🎨</span>
+          <div class="skill-name">Figma</div>
+          <div class="skill-desc">Design &amp; Prototyping tool of choice</div>
+        </div>
+
+        <div class="skill-card reveal reveal-delay-1">
+          <span class="skill-icon">📐</span>
+          <div class="skill-name">Wireframing</div>
+          <div class="skill-desc">Structuring ideas before pixels</div>
+        </div>
+
+        <div class="skill-card reveal reveal-delay-2">
+          <span class="skill-icon">⚡</span>
+          <div class="skill-name">Prototyping</div>
+          <div class="skill-desc">Bringing interactions to life</div>
+        </div>
+
+        <div class="skill-card reveal reveal-delay-1">
+          <span class="skill-icon">🧠</span>
+          <div class="skill-name">User-Centered Design</div>
+          <div class="skill-desc">Empathy at the core</div>
+        </div>
+
+        <div class="skill-card reveal reveal-delay-2">
+          <span class="skill-icon">🖥️</span>
+          <div class="skill-name">UI Design</div>
+          <div class="skill-desc">Pixel-perfect visual interfaces</div>
+        </div>
+
+        <div class="skill-card reveal reveal-delay-3">
+          <span class="skill-icon">📱</span>
+          <div class="skill-name">Responsive Design</div>
+          <div class="skill-desc">Beautiful across all screens</div>
+        </div>
+
+        <div class="skill-card reveal reveal-delay-1">
+          <span class="skill-icon">👤</span>
+          <div class="skill-name">Persona Creation</div>
+          <div class="skill-desc">Defining the real users behind the design</div>
+        </div>
+
+        <div class="skill-card reveal reveal-delay-2">
+          <span class="skill-icon">🗺️</span>
+          <div class="skill-name">Empathy Mapping</div>
+          <div class="skill-desc">Understanding users deeply — what they think, feel & do</div>
+        </div>
+
+        <div class="skill-card reveal reveal-delay-3">
+          <span class="skill-icon">🔍</span>
+          <div class="skill-name">Competitive Analysis</div>
+          <div class="skill-desc">Benchmarking products to find design opportunities</div>
+        </div>
+
+        <div class="skill-card reveal">
+          <span class="skill-icon">📝</span>
+          <div class="skill-name">Problem Statement &amp; HMW</div>
+          <div class="skill-desc">"How Might We" framing to drive creative solutions</div>
+        </div>
+
+        <div class="skill-card reveal reveal-delay-1">
+          <span class="skill-icon">📊</span>
+          <div class="skill-name">SWOT Analysis</div>
+          <div class="skill-desc">Strategic thinking applied to design decisions</div>
+        </div>
+
+        <div class="skill-card reveal reveal-delay-2">
+          <span class="skill-icon">🖼️</span>
+          <div class="skill-name">Figma Presentations</div>
+          <div class="skill-desc">Professional, polished decks built entirely in Figma</div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       PROJECTS SECTION
+  ============================================================ -->
+  <section id="projects">
+    <div class="container">
+      <span class="section-label reveal">What I've Built</span>
+      <h2 class="section-title reveal">Featured Work</h2>
+      <div class="section-divider reveal"></div>
+
+      <div class="projects-grid">
+
+        <!-- Project 1 -->
+        <article class="project-card reveal">
+          <div class="project-header project-header-img">
+            <img src="images/project1.jpg" alt="KidZone app screens" class="project-img" />
+          </div>
+          <div class="project-body">
+            <span class="project-tag">Graduation Project · 2026</span>
+            <h3 class="project-title">KidZone — Gaming &amp; Management Platform</h3>
+            <p class="project-desc">
+              A dual-platform solution consisting of a children's educational gaming mobile application
+              and a full admin dashboard (web) for institutional management. Designed the complete UI
+              for both platforms with a focus on playful yet intuitive experiences for children and
+              efficient workflows for administrators.
+            </p>
+            <div class="project-tools">
+              <span class="tool-chip">Figma</span>
+              <span class="tool-chip">Prototyping</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 2 -->
+        <article class="project-card reveal reveal-delay-1">
+          <div class="project-header project-header-img">
+            <img src="images/project2.jpg" alt="Élégante app screens" class="project-img" />
+          </div>
+          <div class="project-body">
+            <span class="project-tag">Creativa Training · 2026</span>
+            <h3 class="project-title">Élégante — Women's Fashion E-Commerce</h3>
+            <p class="project-desc">
+              Designed the end-to-end UI for a women's clothing e-commerce platform. The project
+              covered product listing pages, cart &amp; checkout flows, and a refined visual
+              identity — built with a focus on elegant aesthetics and seamless shopping experience.
+            </p>
+            <div class="project-tools">
+              <span class="tool-chip">Figma</span>
+              <span class="tool-chip">Prototyping</span>
+              <span class="tool-chip">Persona</span>
+              <span class="tool-chip">Empathy Map</span>
+              <span class="tool-chip">SWOT Analysis</span>
+              <span class="tool-chip">Competitive Analysis</span>
+              <span class="tool-chip">Problem Statement</span>
+              <span class="tool-chip">HMW</span>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       EDUCATION & TRAINING SECTION
+  ============================================================ -->
+  <section id="education">
+    <div class="container">
+      <span class="section-label reveal">Where I Learned</span>
+      <h2 class="section-title reveal">Education &amp; Training</h2>
+      <div class="section-divider reveal"></div>
+
+      <div class="timeline reveal">
+
+        <!-- Education 1 -->
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <p class="timeline-period">2022 – 2026</p>
+          <h3 class="timeline-role">Bachelor's Degree — Computers &amp; Information</h3>
+          <p class="timeline-org">Faculty of Computers &amp; Information, Tanta University</p>
+          <p class="timeline-details">
+            Studying at the Faculty of Computers and Information with a track in <strong>UI/UX Design</strong>.
+            Graduation project: <strong>KidZone</strong> — a dual-platform system consisting of a
+            children's educational gaming mobile app and a full admin dashboard web application.
+            Responsible for all UI/UX: user flows, wireframes, high-fidelity mockups, and interactive prototypes.
+          </p>
+        </div>
+
+        <!-- Training -->
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <p class="timeline-period">2026</p>
+          <h3 class="timeline-role">UI/UX Design Training Program</h3>
+          <p class="timeline-org">Creativa Innovation Hub</p>
+          <p class="timeline-details">
+            Completed a structured, hands-on UI/UX training program covering user research, wireframing,
+            visual design, and Figma prototyping. Delivered <strong>Élégante</strong> — a full e-commerce UI
+            for a women's fashion brand — as the final training project, applying real-world design principles
+            from end to end.
+          </p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       EXPERIENCE SECTION
+  ============================================================ -->
+  <section id="experience">
+    <div class="container">
+      <span class="section-label reveal">Work Experience</span>
+      <h2 class="section-title reveal">Experience</h2>
+      <div class="section-divider reveal"></div>
+
+      <div class="timeline reveal">
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <p class="timeline-period">2026</p>
+          <h3 class="timeline-role">UI/UX Design Intern</h3>
+          <p class="timeline-org">Creativa Innovation Hub</p>
+          <p class="timeline-details">
+            Worked as a UI/UX design intern, applying design thinking and Figma prototyping to deliver
+            a complete e-commerce UI for a women's fashion brand. Contributed to user flow mapping,
+            component design, and iterative high-fidelity mockups under real-world project conditions.
+          </p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       AWARDS SECTION
+  ============================================================ -->
+  <section id="awards">
+    <div class="container">
+      <span class="section-label reveal">Recognition</span>
+      <h2 class="section-title reveal">Awards &amp; Achievements</h2>
+      <div class="section-divider reveal"></div>
+
+      <div class="awards-grid reveal">
+
+        <div class="award-card">
+          <div class="award-icon-wrap">
+            <span class="award-icon">🏆</span>
+          </div>
+          <div class="award-body">
+            <div class="award-badge">1st Place</div>
+            <h3 class="award-title">Delta Universities Environmental Symposium</h3>
+            <p class="award-subtitle">المتلقي البيئي — Delta Universities · 2026</p>
+            <p class="award-desc">
+              Competed with the <strong>KidZone</strong> graduation project concept at the Delta Universities
+              Environmental Symposium (المتلقي البيئي). The project was selected as the <strong>best entry</strong>
+              among all competing universities, earning <strong>1st place</strong> and a cash prize of
+              <strong>10,000 EGP</strong> — a testament to the platform's real-world impact and innovation.
+            </p>
+            <div class="award-prize">
+              <span class="prize-icon">💰</span>
+              <span class="prize-amount">10,000 EGP</span>
+              <span class="prize-label">Cash Prize</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       CONTACT SECTION
+  ============================================================ -->
+  <section id="contact">
+    <div class="container">
+      <span class="section-label reveal">Reach Out</span>
+      <h2 class="section-title reveal">Let's Connect</h2>
+      <div class="section-divider reveal"></div>
+
+      <div class="contact-links-wrap reveal">
+          <div class="contact-card">
+            <div class="cc-icon">📧</div>
+            <div>
+              <div class="cc-label">Email</div>
+              <div class="cc-value"><a href="mailto:gosyemad@gmail.com">gosyemad@gmail.com</a></div>
+            </div>
+          </div>
+          <div class="contact-card">
+            <div class="cc-icon">💼</div>
+            <div>
+              <div class="cc-label">LinkedIn</div>
+              <div class="cc-value">
+                <a href="https://linkedin.com/in/jessica-emad-21b76436b" target="_blank" rel="noopener">
+                  linkedin.com/in/jessica-emad-21b76436b
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="contact-card">
+            <div class="cc-icon">📍</div>
+            <div>
+              <div class="cc-label">Location</div>
+              <div class="cc-value">Tanta, Egypt</div>
+            </div>
+          </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       FOOTER
+  ============================================================ -->
+  <footer id="footer">
+    <div class="container">
+      <div class="footer-name">Jessica Emad Fawzy</div>
+      <div class="footer-subtitle">UI/UX Designer</div>
+      <div class="footer-socials">
+        <a href="https://linkedin.com/in/jessica-emad-21b76436b" target="_blank" rel="noopener" class="social-btn">
+          💼 LinkedIn
+        </a>
+        <a href="mailto:gosyemad@gmail.com" class="social-btn">
+          📧 Email
+        </a>
+      </div>
+      <p class="footer-copy">© 2025 Jessica Emad Fawzy. Crafted with ❤️</p>
+    </div>
+  </footer>
+
+  <!-- ============================================================
+       JAVASCRIPT
+  ============================================================ -->
+  <script src="script.js" defer></script>
+
+</body>
+</html>
