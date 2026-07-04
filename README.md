@@ -9,10 +9,9 @@ portfolio/
 ├── index.html          # Main HTML entry point (structure)
 ├── style.css           # Custom styles (presentation)
 ├── script.js           # JavaScript scripts (behavior)
-├── images/             # Extracted portfolio images (profile photo & projects)
-│   ├── profile.jpg
-│   ├── project1.jpg
-│   └── project2.jpg
+├── profile.jpg         # Profile picture
+├── project1.jpg        # Al-Folk App screens picture
+├── project2.jpg        # Élégante app screens picture
 ├── .gitignore          # Files ignored by Git
 └── README.md           # Project documentation and deployment guide
 ```
@@ -46,7 +45,9 @@ You can upload the files directly from the browser:
    - `index.html`
    - `style.css`
    - `script.js`
-   - `images/` (the folder)
+   - `profile.jpg`
+   - `project1.jpg`
+   - `project2.jpg`
    - `.gitignore`
    - `README.md`
 3. Wait for the files to upload.
@@ -69,4 +70,4 @@ You can upload the files directly from the browser:
 ## 🛠️ Customization
 
 - **Info & Projects**: You can edit the text and project details in the `index.html` file using any text editor (like VS Code or Notepad++).
-- **Images**: If you want to change any image, just overwrite the corresponding file in `images/` with your new image using the same name and file extension.
+- **Images**: If you want to change any image, just overwrite the corresponding file directly in the main folder with your new image using the same name and file extension.
