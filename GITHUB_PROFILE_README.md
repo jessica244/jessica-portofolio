@@ -78,15 +78,6 @@
 
 ---
 
-### 📊 GitHub Stats
-
-<div align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=jessica244&show_icons=true&theme=tokyonight&hide_border=true" alt="Jessica's GitHub Stats" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=jessica244&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" />
-</div>
-
----
-
 ### 📫 Connect With Me
 
 <div align="center">
