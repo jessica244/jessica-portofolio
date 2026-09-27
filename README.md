@@ -1,6 +1,6 @@
-# Jessica Emad — Front-End Developer Portfolio
+﻿# Jessica Emad — Front-End Developer & UI/UX Designer Portfolio
 
-This repository contains the source code for the personal portfolio website of **Jessica Emad**, Front-End Developer & Computer Science Student at Tanta University.
+This repository contains the source code for the personal portfolio website of **Jessica Emad**, Front-End Developer & UI/UX Designer, Computer Science Student at Tanta University.
 
 🌐 **Live Website**: [Jessica's Portfolio](https://jessica244.github.io/jessica-portofolio/)
 
@@ -15,10 +15,11 @@ portfolio/
 ├── script.js                # JavaScript interactivity & scroll animations
 ├── profile.jpg              # Profile picture
 ├── project1.jpg             # Al-Folk App screenshot
+├── project2.jpg             # Élégante E-Commerce UI screenshot
+├── movie_app.png            # Movie App screenshot
 ├── GITHUB_PROFILE_README.md # GitHub Profile README template for github.com/jessica244
 ├── AL_FOLK_APP_README.md    # README template for Al-Folk App repository
 ├── MOVIE_APP_README.md      # README template for Movie App repository
-├── POSALES_README.md        # README template for POSales C# repository
 ├── .gitignore               # Ignored files for Git
 └── README.md                # Main repository documentation
 ```
